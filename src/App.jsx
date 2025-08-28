@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import CoursesSection from './components/CoursesSection';
+import NewsSection from './components/NewsSection';
 import Footer from './components/Footer';
 import './styles.css'
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <main>
         <CoursesSection/>
+        <NewsSection/>
       </main>
       <Footer/>
     </>
