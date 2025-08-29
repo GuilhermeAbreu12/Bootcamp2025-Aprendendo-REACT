@@ -38,10 +38,10 @@ const courses = [
 
 function CoursesSection(){
     return (
-        <section id="cursos" class="cursos">
-            <div class="container">
+        <section id="cursos" className="cursos">
+            <div className="container">
                 <h2>Cursos de Tecnologia UNIMAR</h2>
-                <div class="cards">
+                <div className="cards">
                     {courses.map((courses) => (
                         <CourseCard
                             key={courses.title}

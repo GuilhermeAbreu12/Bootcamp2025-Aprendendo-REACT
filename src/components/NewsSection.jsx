@@ -23,7 +23,7 @@ function NewsSection(){
     return (
         <section id="noticias">
             <h2>Últimas Notícias</h2>
-            <div class="cards">
+            <div className="cards">
                 {news.map((news) => (
                     <NewsCard
                         key={news.title}
