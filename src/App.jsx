@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import CoursesSection from './components/CoursesSection';
 import NewsSection from './components/NewsSection';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import './styles.css'
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <CoursesSection/>
         <NewsSection/>
+        <ContactForm/>
       </main>
       <Footer/>
     </>
